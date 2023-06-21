@@ -105,11 +105,9 @@ public class JumiaTest extends BaseTest {
 
         Util.clickOnElementUsingJavaScript(driver, bakerypage.AddToCartBtn);
 
-        wait.until(ExpectedConditions.visibilityOf(bakerypage.IncreaseBtn));
-
         Util.clickOnElementUsingJavaScript(driver, bakerypage.IncreaseBtn);
 
-        Thread.sleep(5000);
+        Thread.sleep(2000);
 
         Util.clickOnElementUsingJavaScript(driver, homePage.CartBtn);
 
